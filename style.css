@@ -1,0 +1,38 @@
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    font-size: larger;
+}
+
+body {
+    background-color: beige;
+}
+
+td,
+th {
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: gainsboro;
+    text-align: center;
+}
+
+table th {
+    position: sticky;
+    top: 0;
+    background-color: whitesmoke;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
