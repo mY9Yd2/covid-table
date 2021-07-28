@@ -1,33 +1,5 @@
-#root {
-    display: flex;
-    justify-content: center;
-}
-
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    font-size: larger;
-}
-
 body {
     background-color: beige;
-}
-
-td,
-th {
-    padding: 8px;
-    text-align: center;
-}
-
-tr:nth-child(even) {
-    background-color: gainsboro;
-    text-align: center;
-}
-
-table th {
-    position: sticky;
-    top: 0;
-    background-color: whitesmoke;
 }
 
 footer {
@@ -35,4 +7,31 @@ footer {
     align-items: center;
     flex-direction: column;
     text-align: center;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+#corona-table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    font-size: larger;
+}
+
+#corona-table td, th {
+    padding: 8px;
+    text-align: center;
+}
+
+#corona-table tr:nth-child(odd) {
+    background-color: gainsboro;
+    text-align: center;
+}
+
+#corona-table th {
+    position: sticky;
+    top: 0;
+    background-color: whitesmoke;
 }
